@@ -1,0 +1,19 @@
+[2022-05-19 19:34:36.896] [remoteagent] [info] Extension host agent started.
+[2022-05-19 19:34:37.636] [remoteagent] [info] [127.0.0.1][e175a909][ManagementConnection] New connection established.
+[2022-05-19 19:34:40.318] [remoteagent] [info] [127.0.0.1][0f5851ba][ExtensionHostConnection] New connection established.
+[2022-05-19 19:34:41.449] [remoteagent] [info] [127.0.0.1][0f5851ba][ExtensionHostConnection] <497> Launched Extension Host Process.
+[2022-05-19 20:19:14.684] [remoteagent] [info] [127.0.0.1][7ee81698][ManagementConnection] New connection established.
+[2022-05-19 20:19:14.889] [remoteagent] [info] [127.0.0.1][82d0d14e][ExtensionHostConnection] New connection established.
+[2022-05-19 20:19:15.014] [remoteagent] [info] [127.0.0.1][82d0d14e][ExtensionHostConnection] <1386> Launched Extension Host Process.
+[2022-05-19 20:19:38.667] [remoteagent] [info] [127.0.0.1][e175a909][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-19 20:19:38.814] [remoteagent] [info] [127.0.0.1][0f5851ba][ExtensionHostConnection] <497> Extension Host Process exited with code: 0, signal: null.
+[2022-05-20 02:53:18.322] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-20 02:53:34.255] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-21 12:03:27.145] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-21 16:16:13.253] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-21 21:36:21.519] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-21 22:51:01.040] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-22 04:51:02.002] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-22 04:51:16.436] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-22 15:33:11.911] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-22 15:33:59.970] [remoteagent] [info] [127.0.0.1][7ee81698][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

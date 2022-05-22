@@ -1,0 +1,12 @@
+[2022-05-12T09:38:45.393Z] Validating found git in: git
+[2022-05-12T09:38:45.553Z] Using git 2.25.1 from git
+[2022-05-12T09:38:45.649Z] > git rev-parse --show-toplevel [78ms]
+[2022-05-12T09:38:45.677Z] > git rev-parse --git-dir --git-common-dir [11ms]
+[2022-05-12T09:38:45.695Z] Open repository: /home/alicja/My-First-Blog-Post
+[2022-05-12T09:38:45.848Z] > git status -z -uall [136ms]
+[2022-05-12T09:38:45.862Z] > git symbolic-ref --short HEAD [6ms]
+[2022-05-12T09:38:45.914Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+[2022-05-12T09:38:45.973Z] > git remote --verbose [5ms]
+[2022-05-12T09:38:45.974Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [40ms]
+[2022-05-12T09:38:45.995Z] > git config --get commit.template [2ms]
+[2022-05-12T09:38:46.240Z] > git check-ignore -v -z --stdin [4ms]

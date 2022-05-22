@@ -1,0 +1,12 @@
+[2022-05-04 18:51:26.357] [remoteagent] [info] Extension host agent started.
+[2022-05-04 18:51:27.245] [remoteagent] [info] [127.0.0.1][14dca2e9][ManagementConnection] New connection established.
+[2022-05-04 18:51:27.515] [remoteagent] [info] [127.0.0.1][815ec7f5][ExtensionHostConnection] New connection established.
+[2022-05-04 18:51:27.682] [remoteagent] [info] [127.0.0.1][815ec7f5][ExtensionHostConnection] <954> Launched Extension Host Process.
+[2022-05-04 20:39:27.993] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-04 20:57:14.196] [remoteagent] [info] [127.0.0.1][e943e858][ManagementConnection] New connection established.
+[2022-05-04 20:57:14.295] [remoteagent] [info] [127.0.0.1][429c7069][ExtensionHostConnection] New connection established.
+[2022-05-04 20:57:14.352] [remoteagent] [info] [127.0.0.1][429c7069][ExtensionHostConnection] <2182> Launched Extension Host Process.
+[2022-05-04 20:57:21.528] [remoteagent] [info] [127.0.0.1][e943e858][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-04 20:57:21.733] [remoteagent] [info] [127.0.0.1][429c7069][ExtensionHostConnection] <2182> Extension Host Process exited with code: 0, signal: null.
+[2022-05-04 21:28:17.384] [remoteagent] [info] [127.0.0.1][14dca2e9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-04 21:28:17.717] [remoteagent] [info] [127.0.0.1][815ec7f5][ExtensionHostConnection] <954> Extension Host Process exited with code: 0, signal: null.

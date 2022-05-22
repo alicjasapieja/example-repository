@@ -1,0 +1,200 @@
+.topnav {
+  background-color: rgba(209, 212, 114, 0);
+  display: block;
+}
+
+.topnav a {
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  display: inline-block;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+h1 {
+  font-family:'arial';
+  font-size: 85px;
+  font-style:oblique;
+  text-align: center;
+  background-color: #ffffffb8;
+}
+
+
+
+
+
+#intro p {
+  font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(87, 87, 87, 0);
+}
+
+h2 {
+  font-family: 'Lucinda Sans';
+  font-size: 40px;
+  text-align: center;
+  font-style:normal;
+  
+}
+
+
+#details p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background: rgb(224, 204, 204);
+  background-image: url(https://media.istockphoto.com/photos/3d-abstract-background-with-ultraviolet-neon-lights-and-wavy-lines-picture-id1269743200?k=20&m=1269743200&s=612x612&w=0&h=hnq_aT1bri-hvTvBf6bp5_nudEA-v88WwufXgTmr_PQ=);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+h5 {
+  text-align: right
+  font-family: 'Lucinda Sans';
+  font-size: 40px;
+  font-style:normal;
+  
+}
+
+h8 {
+  text-align: right;
+  font-family: 'Lucinda Sans';
+  font-size: 40px;
+  font-style:normal;
+}
+
+table {
+  border-width: 2px;
+  border-color: black;
+  margin-right: 250px;
+}
+
+.time {
+  font-weight: bold;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+}
+
+.largerimg {
+  width: 400px;
+  height: 300px;
+}
+
+h3 {
+  font-family: 'Lucinda Sans';
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+
+}
+
+.timeline {
+  width:1000px;
+  height: 30px;
+  list-style: none;
+  text-align: justify;
+  margin: 80px auto;
+  background: linear-gradient(to bottom, rgba(127, 212, 8, 0) 0%, rgba(255,255,255,0) 45%, rgb(240, 229, 6) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+}
+
+.timeline:after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+}
+
+
+
+.timeline li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #000000;
+  text-align: center;
+  line-height: 1.2;
+  position: relative;
+  border-radius: 50%;
+}
+.timeline li:before {
+  display: inline-block;
+  width: 200px;
+  content: attr(data-year);
+  font-size: 26px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline li:nth-child(odd):before {
+  top: -40px;
+}
+
+.timeline li:nth-child(even):before {
+  bottom: -40px;
+}
+
+.timeline li:after {
+  display: inline-block;
+  width: 300px;
+  content: attr(data-text);
+  font-size: 16px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline li:nth-child(odd):after {
+  bottom: 0;
+  margin-bottom: -10px;
+  transform: translate(-50%, 100%);
+}
+.timeline li:nth-child(even):after {
+  top: 0;
+  margin-top: -10px;
+  transform: translate(-50%, -100%);
+}
+
+#employment {
+  float:right;
+  width: 500px;
+  margin-left: 500px;
+  position: fixed;
+
+}
+
+#timetable {
+  float:left;
+  width: 300px;
+  margin-left:1000px;
+}
+
+table {
+  float:left;
+  margin-left: 100px;
+  margin-right: 20px;
+}
+
+h4 {
+  font-family: 'Lucinda Sans';
+  font-size: 30px;
+  text-align: center;
+  font-style:normal; 
+}
+
+#gallery {
+  float: left;
+   display: block;
+   margin-top: 400px;
+}
+

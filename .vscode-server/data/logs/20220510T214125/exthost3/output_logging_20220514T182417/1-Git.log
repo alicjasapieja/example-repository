@@ -1,0 +1,23 @@
+[2022-05-14T08:24:18.430Z] Validating found git in: git
+[2022-05-14T08:24:18.508Z] Using git 2.25.1 from git
+[2022-05-14T08:24:18.591Z] > git rev-parse --show-toplevel [68ms]
+[2022-05-14T08:24:18.612Z] > git rev-parse --git-dir --git-common-dir [5ms]
+[2022-05-14T08:24:18.622Z] Open repository: /home/alicja/My-First-Blog-Post
+[2022-05-14T08:24:18.650Z] > git status -z -uall [11ms]
+[2022-05-14T08:24:18.660Z] > git symbolic-ref --short HEAD [2ms]
+[2022-05-14T08:24:18.678Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+[2022-05-14T08:24:18.856Z] > git remote --verbose [128ms]
+[2022-05-14T08:24:18.857Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [166ms]
+[2022-05-14T08:24:18.875Z] > git config --get commit.template [3ms]
+[2022-05-14T08:24:19.328Z] > git check-ignore -v -z --stdin [10ms]
+[2022-05-14T08:24:21.698Z] > git show --textconv :blog_post.html [39ms]
+[2022-05-14T08:24:21.699Z] > git ls-files --stage -- /home/alicja/My-First-Blog-Post/blog_post.html [31ms]
+[2022-05-14T08:24:43.411Z] > git check-ignore -v -z --stdin [41ms]
+[2022-05-14T08:24:43.415Z] > git show --textconv :My website [28ms]
+[2022-05-14T08:24:43.415Z] > git ls-files --stage -- /home/alicja/My-First-Blog-Post/My website [11ms]
+[2022-05-14T08:24:43.891Z] > git status -z -uall [4ms]
+[2022-05-14T08:24:43.907Z] > git symbolic-ref --short HEAD [3ms]
+[2022-05-14T08:24:43.923Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+[2022-05-14T08:24:43.968Z] > git remote --verbose [2ms]
+[2022-05-14T08:24:43.969Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [28ms]
+[2022-05-14T08:24:43.987Z] > git config --get commit.template [4ms]

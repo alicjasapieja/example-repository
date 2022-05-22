@@ -1,0 +1,11 @@
+[2022-05-07T09:30:23.599Z] Validating found git in: git
+[2022-05-07T09:30:24.124Z] Using git 2.25.1 from git
+[2022-05-07T09:30:24.180Z] > git rev-parse --git-dir [5ms]
+[2022-05-07T09:30:24.191Z] Open repository: /home/alicja/development/code/phase-0-completing-assignments
+[2022-05-07T09:30:24.266Z] > git symbolic-ref --short HEAD [23ms]
+[2022-05-07T09:30:24.314Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [40ms]
+[2022-05-07T09:30:24.370Z] > git remote --verbose [37ms]
+[2022-05-07T09:30:24.371Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [48ms]
+[2022-05-07T09:30:24.389Z] > git config --get commit.template [2ms]
+[2022-05-07T09:30:24.903Z] > git ls-files --stage -- /home/alicja/development/code/phase-0-completing-assignments/README.md [4ms]
+[2022-05-07T09:30:24.922Z] > git cat-file -s 2c818843ce69a5a45943fbef0842648440fed51a [5ms]

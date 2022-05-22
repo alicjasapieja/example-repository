@@ -1,0 +1,85 @@
+0 verbose cli /home/alicja/.nvm/versions/node/v18.0.0/bin/node /home/alicja/.nvm/versions/node/v18.0.0/bin/npm
+1 info using npm@8.6.0
+2 info using node@v18.0.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/home/alicja/.nvm/versions/node/v18.0.0/lib/node_modules/npm/npmrc Completed in 5ms
+6 timing config:load:builtin Completed in 7ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 9ms
+10 timing config:load:file:/home/alicja/.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/home/alicja/.nvm/versions/node/v18.0.0/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 1ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 30ms
+18 timing npm:load:configload Completed in 30ms
+19 timing npm:load:mkdirpcache Completed in 2ms
+20 timing npm:load:mkdirplogs Completed in 2ms
+21 verbose title npm install code
+22 verbose argv "install" "code"
+23 timing npm:load:setTitle Completed in 2ms
+24 timing config:load:flatten Completed in 3ms
+25 timing npm:load:display Completed in 6ms
+26 verbose logfile logs-max:10 dir:/home/alicja/.npm/_logs
+27 verbose logfile /home/alicja/.npm/_logs/2022-05-22T08_45_05_200Z-debug-0.log
+28 timing npm:load:logFile Completed in 5ms
+29 timing npm:load:timers Completed in 1ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 49ms
+32 timing arborist:ctor Completed in 1ms
+33 silly logfile start cleaning logs, removing 1 files
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 12ms
+36 timing idealTree:userRequests Completed in 6ms
+37 silly idealTree buildDeps
+38 silly fetch manifest code@*
+39 http fetch GET 200 https://registry.npmjs.org/code 2030ms (cache miss)
+40 silly placeDep ROOT code@5.2.4 OK for:  want: *
+41 silly fetch manifest hoek@6.x.x
+42 http fetch GET 200 https://registry.npmjs.org/hoek 366ms (cache miss)
+43 timing idealTree:#root Completed in 2428ms
+44 silly placeDep ROOT hoek@6.1.3 OK for: code@5.2.4 want: 6.x.x
+45 timing idealTree:node_modules/code Completed in 13ms
+46 timing idealTree:node_modules/hoek Completed in 0ms
+47 timing idealTree:buildDeps Completed in 2445ms
+48 timing idealTree:fixDepFlags Completed in 3ms
+49 timing idealTree Completed in 2469ms
+50 timing reify:loadTrees Completed in 2470ms
+51 timing reify:diffTrees Completed in 4ms
+52 silly reify moves {}
+53 timing reify:retireShallow Completed in 4ms
+54 timing reify:createSparse Completed in 11ms
+55 timing reify:loadBundles Completed in 0ms
+56 silly audit bulk request { code: [ '5.2.4' ], hoek: [ '6.1.3' ] }
+57 silly tarball no local data for hoek@https://registry.npmjs.org/hoek/-/hoek-6.1.3.tgz. Extracting by manifest.
+58 silly tarball no local data for code@https://registry.npmjs.org/code/-/code-5.2.4.tgz. Extracting by manifest.
+59 http fetch GET 200 https://registry.npmjs.org/hoek/-/hoek-6.1.3.tgz 264ms (cache miss)
+60 warn deprecated hoek@6.1.3: This module has moved and is now available at @hapi/hoek. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+61 timing reifyNode:node_modules/hoek Completed in 308ms
+62 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 942ms
+63 timing auditReport:getReport Completed in 949ms
+64 silly audit report {}
+65 timing auditReport:init Completed in 0ms
+66 timing reify:audit Completed in 952ms
+67 http fetch GET 200 https://registry.npmjs.org/code/-/code-5.2.4.tgz 1136ms (cache miss)
+68 warn deprecated code@5.2.4: This module has moved and is now available at @hapi/code. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+69 timing reifyNode:node_modules/code Completed in 1200ms
+70 timing reify:unpack Completed in 1202ms
+71 timing reify:unretire Completed in 1ms
+72 timing build:queue Completed in 22ms
+73 timing build:deps Completed in 25ms
+74 timing build Completed in 28ms
+75 timing reify:build Completed in 30ms
+76 timing reify:trash Completed in 0ms
+77 timing reify:save Completed in 49ms
+78 timing reify Completed in 3825ms
+79 silly ADD node_modules/hoek
+80 silly ADD node_modules/code
+81 timing command:install Completed in 3842ms
+82 verbose exit 0
+83 timing npm Completed in 3965ms
+84 info ok

@@ -1,0 +1,169 @@
+[2022-05-14 19:09:03.636] [exthost] [info] Extension host with pid 1832 started
+[2022-05-14 19:09:03.726] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-14 19:09:03.741] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-05-14 19:09:03.753] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-14 19:09:03.808] [exthost] [info] Lock '/home/alicja/.vscode-server/data/User/workspaceStorage/4f5a348e25c8403501eee183fec0ca30/vscode.lock': Lock acquired.
+[2022-05-14 19:09:04.018] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-05-14 19:09:04.132] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-14 19:09:04.264] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-14 19:09:04.307] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-14 19:09:04.318] [exthost] [info] Eager extensions activated
+[2022-05-14 19:14:35.543] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-05-14 19:19:12.044] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-05-14 19:21:53.058] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-05-14 23:51:27.310] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-05-14 23:51:27.354] [exthost] [error] Error: Unable to find matching pair for < at char 218
+	at r.error (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:22545)
+	at f (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:21775)
+	at u (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:14436)
+	at l (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:14549)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:15164
+	at m (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:15271)
+	at E (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:16189)
+	at _ (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:16599)
+	at t.getRootNode (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:201165)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:186881)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:185653)
+	at Q.provideCompletionItems (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:83:111153)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:83:135870
+	at be._withAdapter (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:83:126001)
+	at be.$provideCompletionItems (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:83:135846)
+	at s._doInvokeHandler (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:86:13828)
+	at s._invokeHandler (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:86:13512)
+	at s._receiveRequest (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:86:12121)
+	at s._receiveOneMessage (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:86:10843)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:86:8949
+	at m.invoke (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.deliver (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at l.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:19001)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:34426
+	at m.invoke (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.deliver (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at l.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:19001)
+	at r._receiveMessage (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:23582)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:21116
+	at m.invoke (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.deliver (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at v.acceptChunk (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:15832)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:14962
+	at m.invoke (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.deliver (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at f._processReadQueue (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:21306)
+	at f.acceptFrame (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:20962)
+	at w._acceptChunk (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:18926)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:15915
+	at Socket.R (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:13798)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-05-14 23:51:27.685] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-05-14 23:51:27.686] [exthost] [error] Error: Unable to find matching pair for < at char 218
+	at r.error (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:22545)
+	at f (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:21775)
+	at u (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:14436)
+	at l (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:14549)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:15164
+	at m (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:15271)
+	at E (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:16189)
+	at _ (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:16599)
+	at t.getRootNode (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:201165)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:186881)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:185653)
+	at Q.provideCompletionItems (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:83:111153)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:83:135870
+	at be._withAdapter (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:83:126001)
+	at be.$provideCompletionItems (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:83:135846)
+	at s._doInvokeHandler (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:86:13828)
+	at s._invokeHandler (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:86:13512)
+	at s._receiveRequest (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:86:12121)
+	at s._receiveOneMessage (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:86:10843)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:86:8949
+	at m.invoke (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.deliver (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at l.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:19001)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:34426
+	at m.invoke (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.deliver (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at l.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:19001)
+	at r._receiveMessage (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:23582)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:21116
+	at m.invoke (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.deliver (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at v.acceptChunk (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:15832)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:14962
+	at m.invoke (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.deliver (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at f._processReadQueue (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:21306)
+	at f.acceptFrame (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:20962)
+	at w._acceptChunk (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:18926)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:15915
+	at Socket.R (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:13798)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-05-14 23:51:27.937] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-05-14 23:51:27.937] [exthost] [error] Error: Unable to find matching pair for < at char 218
+	at r.error (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:22545)
+	at f (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:21775)
+	at u (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:14436)
+	at l (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:14549)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:15164
+	at m (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:15271)
+	at E (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:16189)
+	at _ (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:16599)
+	at t.getRootNode (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:201165)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:186881)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/emmet/dist/node/emmetNodeMain.js:1:185653)
+	at Q.provideCompletionItems (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:83:111153)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:83:135870
+	at be._withAdapter (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:83:126001)
+	at be.$provideCompletionItems (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:83:135846)
+	at s._doInvokeHandler (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:86:13828)
+	at s._invokeHandler (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:86:13512)
+	at s._receiveRequest (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:86:12121)
+	at s._receiveOneMessage (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:86:10843)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:86:8949
+	at m.invoke (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.deliver (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at l.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:19001)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:34426
+	at m.invoke (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.deliver (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at l.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:19001)
+	at r._receiveMessage (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:23582)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:21116
+	at m.invoke (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.deliver (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at v.acceptChunk (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:15832)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:66:14962
+	at m.invoke (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.deliver (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at f._processReadQueue (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:21306)
+	at f.acceptFrame (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:20962)
+	at w._acceptChunk (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:18926)
+	at /home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:15915
+	at Socket.R (/home/alicja/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:102:13798)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-05-15 01:20:36.423] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-05-15 01:20:36.564] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-05-15 01:20:37.336] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features

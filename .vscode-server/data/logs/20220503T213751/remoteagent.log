@@ -1,0 +1,20 @@
+[2022-05-03 21:37:52.020] [remoteagent] [info] Extension host agent started.
+[2022-05-03 21:37:52.451] [remoteagent] [info] [127.0.0.1][7831baf8][ManagementConnection] New connection established.
+[2022-05-03 21:37:52.758] [remoteagent] [info] [127.0.0.1][a0b17252][ExtensionHostConnection] New connection established.
+[2022-05-03 21:37:53.117] [remoteagent] [info] [127.0.0.1][a0b17252][ExtensionHostConnection] <2077> Launched Extension Host Process.
+[2022-05-03 21:37:55.735] [remoteagent] [info] Getting Manifest... ms-vscode.js-debug-companion
+[2022-05-03 21:37:56.009] [remoteagent] [info] Installing extension: ms-vscode.js-debug-companion
+[2022-05-03 21:37:56.621] [remoteagent] [info] Downloaded extension: ms-vscode.js-debug-companion /home/alicja/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.js-debug-companion-1.0.18
+[2022-05-03 21:37:56.664] [remoteagent] [info] Extracted extension to /home/alicja/.vscode-server/extensions/.bc9e48ba-ae5e-4865-80e9-e8acd8bdafc4: ms-vscode.js-debug-companion
+[2022-05-03 21:37:56.677] [remoteagent] [info] Renamed to /home/alicja/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18
+[2022-05-03 21:37:56.680] [remoteagent] [info] Extracting completed. ms-vscode.js-debug-companion
+[2022-05-03 21:37:56.689] [remoteagent] [info] Extension installed successfully: ms-vscode.js-debug-companion
+[2022-05-03 23:30:16.672] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-04 01:41:22.380] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-04 06:44:20.583] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-04 09:32:09.379] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-04 13:17:05.079] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-04 14:19:15.647] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-04 17:33:03.156] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-04 18:44:22.591] [remoteagent] [info] [127.0.0.1][7831baf8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-04 18:44:22.836] [remoteagent] [info] [127.0.0.1][a0b17252][ExtensionHostConnection] <2077> Extension Host Process exited with code: 0, signal: null.

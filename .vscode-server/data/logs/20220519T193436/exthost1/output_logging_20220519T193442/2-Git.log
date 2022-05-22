@@ -1,0 +1,21 @@
+[2022-05-19T09:34:44.195Z] Validating found git in: git
+[2022-05-19T09:34:44.434Z] Using git 2.25.1 from git
+[2022-05-19T09:34:44.587Z] > git rev-parse --show-toplevel [131ms]
+[2022-05-19T09:34:44.680Z] > git rev-parse --git-dir --git-common-dir [59ms]
+[2022-05-19T09:34:44.733Z] Open repository: /home/alicja/my-first-website
+[2022-05-19T09:34:44.913Z] > git status -z -uall [152ms]
+[2022-05-19T09:34:44.944Z] > git symbolic-ref --short HEAD [12ms]
+[2022-05-19T09:34:45.005Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [39ms]
+[2022-05-19T09:34:45.037Z] > git remote --verbose [7ms]
+[2022-05-19T09:34:45.039Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [18ms]
+[2022-05-19T09:34:45.101Z] > git config --get commit.template [36ms]
+[2022-05-19T09:34:45.335Z] > git check-ignore -v -z --stdin [5ms]
+[2022-05-19T09:34:45.427Z] > git show --textconv :script.js [22ms]
+[2022-05-19T09:34:45.427Z] > git ls-files --stage -- /home/alicja/my-first-website/script.js [7ms]
+[2022-05-19T09:34:45.441Z] > git cat-file -s 1c5e100ffe098367d6292f2fad410e91efd81011 [5ms]
+[2022-05-19T10:13:07.541Z] > git status -z -uall [24ms]
+[2022-05-19T10:13:07.557Z] > git symbolic-ref --short HEAD [2ms]
+[2022-05-19T10:13:07.586Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2022-05-19T10:13:07.629Z] > git remote --verbose [3ms]
+[2022-05-19T10:13:07.629Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+[2022-05-19T10:13:07.649Z] > git config --get commit.template [3ms]
